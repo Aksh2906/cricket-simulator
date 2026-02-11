@@ -1,0 +1,4 @@
+.venv/
+cricket-sim/.venv/
+__pycache__/
+*.pyc

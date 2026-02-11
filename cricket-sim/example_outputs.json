@@ -1,0 +1,126 @@
+[
+  {
+    "commentary": "Short and wide, batsman scoops, 137 kph",
+    "over": 19.0,
+    "phase": "death",
+    "predictions": {
+      "line": {
+        "label": "middle",
+        "confidence": 0.3624812430840687,
+        "all_probs": {
+          "leg": 0.16188796671676256,
+          "middle": 0.3624812430840687,
+          "off": 0.2262446724430171,
+          "wide": 0.24938611775615163
+        }
+      },
+      "length": {
+        "label": "good",
+        "confidence": 0.29437449008029615,
+        "all_probs": {
+          "full": 0.23363043260849303,
+          "good": 0.29437449008029615,
+          "short": 0.2598237761201856,
+          "yorker": 0.21217130119102529
+        }
+      },
+      "swing": {
+        "label": "none",
+        "confidence": 0.7737977726736194,
+        "all_probs": {
+          "inswing": 0.1329711187094327,
+          "none": 0.7737977726736194,
+          "outswing": 0.09323110861694797
+        }
+      },
+      "speed": {
+        "speed_kph": 137.0,
+        "confidence": 0.99,
+        "method": "extracted"
+      }
+    }
+  },
+  {
+    "commentary": "Perfect yorker at the stumps, great delivery",
+    "over": 18.2,
+    "phase": "death",
+    "predictions": {
+      "line": {
+        "label": "middle",
+        "confidence": 0.5901022152641545,
+        "all_probs": {
+          "leg": 0.16206958688659312,
+          "middle": 0.5901022152641545,
+          "off": 0.14904237206361406,
+          "wide": 0.09878582578563838
+        }
+      },
+      "length": {
+        "label": "full",
+        "confidence": 0.2939779016913876,
+        "all_probs": {
+          "full": 0.2939779016913876,
+          "good": 0.26874036394658113,
+          "short": 0.15247497973390967,
+          "yorker": 0.28480675462812155
+        }
+      },
+      "swing": {
+        "label": "none",
+        "confidence": 0.7505633314937382,
+        "all_probs": {
+          "inswing": 0.1462582481199099,
+          "none": 0.7505633314937382,
+          "outswing": 0.10317842038635185
+        }
+      },
+      "speed": {
+        "speed_kph": 133.0,
+        "uncertainty_std": 7.655063683601855,
+        "confidence": 0.9424431301984822,
+        "method": "regressed"
+      }
+    }
+  },
+  {
+    "commentary": "Outswing gets past the edge, 131 kph, attacking cricket",
+    "over": 4.0,
+    "phase": "powerplay",
+    "predictions": {
+      "line": {
+        "label": "off",
+        "confidence": 0.4297084103886762,
+        "all_probs": {
+          "leg": 0.08597079978367794,
+          "middle": 0.30194451217018653,
+          "off": 0.4297084103886762,
+          "wide": 0.1823762776574593
+        }
+      },
+      "length": {
+        "label": "good",
+        "confidence": 0.5624956397968364,
+        "all_probs": {
+          "full": 0.21071177392474835,
+          "good": 0.5624956397968364,
+          "short": 0.13704897189003915,
+          "yorker": 0.08974361438837605
+        }
+      },
+      "swing": {
+        "label": "none",
+        "confidence": 0.5619825335842104,
+        "all_probs": {
+          "inswing": 0.1237464544205081,
+          "none": 0.5619825335842104,
+          "outswing": 0.3142710119952816
+        }
+      },
+      "speed": {
+        "speed_kph": 131.0,
+        "confidence": 0.99,
+        "method": "extracted"
+      }
+    }
+  }
+]
