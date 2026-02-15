@@ -87,7 +87,8 @@ class CricketCommentarySystem:
 # EXECUTION
 # ==========================================
 
-URL = "https://www.hindustantimes.com/static-content/10s/commentary_268068_2.json"  
+#URL = "https://www.hindustantimes.com/static-content/10s/commentary_268068_2.json"  
+URL = "https://www.hindustantimes.com/static-content/10s/commentary_268071_2.json"
 
 system = CricketCommentarySystem(URL)
 

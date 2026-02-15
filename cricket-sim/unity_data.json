@@ -1,0 +1,40 @@
+{
+    "runs": "4",
+    "over": "1.3",
+    "speed": {
+        "speed_kph": 133.9,
+        "uncertainty_std": 7.034912934784622,
+        "confidence": 0.9474614418612052,
+        "method": "regressed"
+    },
+    "batsman_hand": "R",
+    "line": {
+        "label": "middle",
+        "confidence": 0.4470460077975558,
+        "all_probs": {
+            "leg": 0.11647167180840846,
+            "middle": 0.4470460077975558,
+            "off": 0.28228591794113445,
+            "wide": 0.15419640245290117
+        }
+    },
+    "length": {
+        "label": "good",
+        "confidence": 0.42623593773856,
+        "all_probs": {
+            "full": 0.2927216674620116,
+            "good": 0.42623593773856,
+            "short": 0.15966732716714405,
+            "yorker": 0.1213750676322843
+        }
+    },
+    "swing": {
+        "label": "none",
+        "confidence": 0.6563666279052043,
+        "all_probs": {
+            "inswing": 0.11417413742684258,
+            "none": 0.6563666279052043,
+            "outswing": 0.2294592346679531
+        }
+    }
+}
