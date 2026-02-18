@@ -74,10 +74,10 @@ Expects JSONL with fields:
 ### 3. Run inference
 
 ```bash
-python inference/run_inference.py --models models/ --text "Short and wide, batsman scoops, 137 kph" --over 19
+python inference/run_inference.py --models models/ --input data/example_train.jsonl --output out_pred.json
 ```
 
-**Output JSON** (ready for Unity):
+**Output JSON** (`out_pred.json` — ready for Unity):
 ```json
 {
   "commentary": "Short and wide, batsman scoops, 137 kph",
@@ -151,12 +151,12 @@ To train on real data, collect commentary with crowdsourced annotations or weak 
 
 ## Integration with Unity
 
-1. **Input**: Commentary text (string) + over number (float)
-2. **Process**: Call `python inference/run_inference.py --models models/ --text "..." --over X`
-3. **Output**: JSON with predictions and confidences
+1. **Input**: JSONL file with commentary, over number, and other fields
+2. **Process**: Call `python inference/run_inference.py --models models/ --input input.jsonl --output out_pred.json`
+3. **Output**: `out_pred.json` contains predictions and confidences for each entry
 4. **Unity workflow**:
-   - Deserialize JSON
-   - Use `predictions.line.label`, `predictions.speed.speed_kph`, etc.
+   - Parse `out_pred.json`
+   - For each prediction, extract `predictions.line.label`, `predictions.speed.speed_kph`, etc.
    - Threshold on confidence scores (e.g., only accept line if confidence > 0.5)
    - For missing predictions (confidence too low), use defaults
 
