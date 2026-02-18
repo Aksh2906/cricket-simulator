@@ -3,7 +3,7 @@ import time
 from inference.run_inference import infer
 import json
 
-PATH_UNITY = "unity_data.json"
+PATH_UNITY = "/Users/aksh-aggarwal/Desktop/Workspace/unityPro/CricTwin/Assets/StreamingAssets/ball_data.json"
 
 
 class CricketCommentarySystem:
@@ -88,7 +88,7 @@ class CricketCommentarySystem:
 # ==========================================
 
 #URL = "https://www.hindustantimes.com/static-content/10s/commentary_268068_2.json"  
-URL = "https://www.hindustantimes.com/static-content/10s/commentary_268071_2.json"
+URL = "https://www.hindustantimes.com/static-content/10s/commentary_268100_1.json"
 
 system = CricketCommentarySystem(URL)
 
