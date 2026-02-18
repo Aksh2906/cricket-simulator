@@ -2,3 +2,13 @@
 cricket-sim/.venv/
 __pycache__/
 *.pyc
+
+# Unity generated files
+unity-setup/**/Library/
+unity-setup/**/Temp/
+unity-setup/**/Logs/
+unity-setup/**/obj/
+unity-setup/**/Assets/StreamingAssets/**/*.json
+unity-setup/**/*.csproj
+unity-setup/**/*.sln
+unity-setup/**/*.unitypackage
